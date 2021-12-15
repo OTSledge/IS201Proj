@@ -11489,3 +11489,10 @@ p {
 .address strong {
   font-size: 1.2rem;
 }
+
+.mono {
+  font-family:monospace
+} 
+.to_upper {
+  text-transform: uppercase;
+}

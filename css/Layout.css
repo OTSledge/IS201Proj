@@ -1,0 +1,39 @@
+.common {
+    position: absolute;
+}
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 75px;
+    z-index: 1;
+    border-bottom: solid 2px black;
+}
+.left {
+    top: 95px;
+    left: 5px;
+    width: 170px;
+    bottom: 5px;
+    z-index: 2;
+    border-right: 2px solid black;
+    padding-right: 5px;
+}
+.main {
+    top: 95px;
+    left: 190px;
+    right: 5px;
+    bottom: 95px;
+}
+.footer {
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 75px;
+    position:fixed;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

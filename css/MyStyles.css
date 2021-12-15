@@ -1,3 +1,34 @@
-.mono {
-    font-family:monospace
+h1{
+    font-family: sans-serif;
+    font-weight:100;
+    font-size:40px;
+
+}
+
+h2{
+
+    font-size: 35px;
+    margin-left: 5px;
+    position:fixed
+}
+a {
+   
+    text-decoration: none;
+    color: rgb(177, 174, 174);
+}
+a:hover{
+    color: rgb(216, 150, 51);
+    text-decoration: underline;
+}
+.bg {
+    background-image: url(../assets/img/Background\ Tools.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.to_upper {
+    text-transform: uppercase;
+}
+.will{
+    margin-left: 30px;
 }
