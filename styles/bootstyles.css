@@ -1,0 +1,107 @@
+/* Layout CSS */
+.common {
+    position: fixed;
+}
+.navigation {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 75px;
+    z-index: 2;
+    border-bottom: solid 2px black;
+}
+.left {
+    top: 90px;
+    left: 5px;
+    width: 170px;
+    bottom: 80px;
+    z-index: 1;
+    border-right: 2px solid black;
+    padding-right: 5px;
+}
+.main {
+    top: 95px;
+    left: 190px;
+    width: 50%;
+    bottom: 95px;
+}
+.footer {
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 75px;
+    z-index: 3;
+    position:fixed;
+    border-top: 2px solid black;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* Styling CSS */
+
+h1{
+    font-family: sans-serif;
+    font-weight:100;
+    font-size:30px;
+
+}
+
+h2{
+
+    font-size: 35px;
+    margin-left: 5px;
+    position:fixed
+}
+h3{
+    font-size: 48px;
+    margin-left: 190px;
+    position:absolute;
+    font-style: italic;
+    background-color: white;
+    padding-left: 20;
+    padding-right: 20px;
+}
+a {
+   
+    text-decoration: none;
+    color: rgb(78, 78, 78);
+}
+a:hover{
+    color: rgb(216, 150, 51);
+    text-decoration: underline;
+}
+ol{
+    font-size: 15; 
+    font-family: sans-serif;
+    font-weight: lighter;
+    padding-right:10px;
+}
+.bg {
+    background-image: url(../assets/img/Background\ Tools.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.to_upper {
+    text-transform: uppercase;
+}
+.will{
+    margin-left: 30px;
+}
+.tableau{
+    margin-right: 200px;
+}
+.dashtitle{
+    margin-left: 10px;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.navbar{
+    font-size: 24px; 
+    font-family: sans-serif;
+}

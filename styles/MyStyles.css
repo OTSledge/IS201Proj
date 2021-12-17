@@ -1,0 +1,46 @@
+
+h1{
+    font-family: sans-serif;
+    font-weight:100;
+    font-size:40px;
+
+}
+
+h2{
+
+    font-size: 35px;
+    margin-left: 5px;
+    position:fixed
+}
+a {
+   
+    text-decoration: none;
+    color: rgb(78, 78, 78);
+}
+a:hover{
+    color: rgb(216, 150, 51);
+    text-decoration: underline;
+}
+ol{
+    font-size: 24; 
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.bg {
+    background-image: url(../assets/img/Background\ Tools.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.to_upper {
+    text-transform: uppercase;
+}
+.mono {
+    font-family:monospace
+}
+.bold{
+    font-weight: bold;
+}
+.italicize{
+    font-style: italic;
+}
